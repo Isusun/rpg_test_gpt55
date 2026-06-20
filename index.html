@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>灯晶の巡礼</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="game-shell" aria-label="灯晶の巡礼">
+    <div id="pixi-root" aria-hidden="true"></div>
+    <div id="hud" class="hud"></div>
+    <div id="title-screen" class="screen-panel"></div>
+    <div id="dialogue" class="dialogue-panel hidden" role="dialog" aria-live="polite"></div>
+    <div id="menu" class="menu-panel hidden" role="dialog" aria-live="polite"></div>
+    <div id="battle-ui" class="battle-panel hidden" role="dialog" aria-live="polite"></div>
+    <div id="touch-controls" class="touch-controls" aria-label="タッチ操作"></div>
+    <div id="toast" class="toast hidden" aria-live="assertive"></div>
+    <div id="fade" class="fade"></div>
+  </main>
+  <noscript>JavaScript を有効にしてください。</noscript>
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@8/dist/pixi.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
